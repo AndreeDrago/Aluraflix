@@ -1,0 +1,18 @@
+body {
+  background-color: #262626;
+}
+
+.bannerContainer {
+  display: none;
+}
+
+@media (min-width: 834px) {
+  .bannerContainer {
+    display: flex;
+    position: relative;
+    top: 125px;
+    margin-bottom: 125px;
+  }
+}
+@media (min-width: 1440px) {
+}

@@ -1,0 +1,41 @@
+.footerContainer {
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0, 0.9);
+  border-top: 5px solid #2271d1;
+  box-shadow: 0px 5px 29px 0px rgba(34, 113, 209, 0.7);
+}
+
+a {
+  text-decoration: none;
+}
+
+.bottonContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+.logoContainer {
+  display: none;
+}
+
+@media (min-width: 834px) {
+  .bottonContainer {
+    display: none;
+  }
+
+  .logoContainer {
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logoContainer img {
+    height: 40px;
+  }
+}

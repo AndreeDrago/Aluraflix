@@ -1,0 +1,30 @@
+.tarjeta__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 5px 5px;
+}
+
+.imagen {
+  max-width: 80vw;
+  width: 430px;
+}
+
+.boton__area {
+  width: 100%;
+  height: 50px;
+  border-radius: 0rem 0rem 1rem 1rem;
+  background-color: #000;
+  box-shadow: inset 0px -5px 20px 1px #6bd1ff;
+  border-bottom: 3px solid #6bd1ff;
+  border-right: 3px solid #6bd1ff;
+  border-left: 3px solid #6bd1ff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  -webkit-border-radius: 0rem 0rem 1rem 1rem;
+  -moz-border-radius: 0rem 0rem 1rem 1rem;
+  -ms-border-radius: 0rem 0rem 1rem 1rem;
+  -o-border-radius: 0rem 0rem 1rem 1rem;
+}

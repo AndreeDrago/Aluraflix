@@ -1,0 +1,18 @@
+.imagenPrevia {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.imagenPrevia img {
+  width: 100%;
+}
+
+.imagenEfect {
+  width: 100%;
+  height: 100%;
+  top: -3px;
+  border: 3px solid;
+  position: absolute;
+}
